@@ -1,4 +1,3 @@
-
 class Atleta {
   constructor(nome, notas) {
     this.nome = nome;
@@ -44,12 +43,13 @@ let atletas = [
  }
 ];
 
-// instanciar Atleta para cada item
+// instanciando Atleta para cada item
 const atletasInstancia = atletas.map(a => new Atleta(a.nome, a.notas));
 
-// usar forEach em vez de for
+
 atletasInstancia.forEach((atleta) => {
   console.log(`Atleta: ${atleta.nome}`);
+  console.log("------------------------------")
   console.log(`Notas Obtidas: ${atleta.notas.join(", ")}`);
   console.log(`Notas Ordenadas: ${atleta.ordenarNotas().join(", ")}`);
   console.log(`Notas Válidas: ${atleta.notasValidas().join(", ")}`);
