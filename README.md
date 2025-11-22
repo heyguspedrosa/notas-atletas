@@ -22,12 +22,14 @@ node notas-atletas.js
 ## Exemplo de saída
 ```
 Atleta: Cesar Abascal
+------------------------------
 Notas Obtidas: 10, 9.34, 8.42, 10, 7.88
 Notas Ordenadas: 7.88, 8.42, 9.34, 10, 10
 Notas Válidas: 8.42, 9.34, 10
 Média Válida: 9.25
 
 Atleta: Bruno Castro
+------------------------------
 Notas Obtidas: 10, 10, 10, 9, 9.5
 Notas Ordenadas: 9, 9.5, 10, 10, 10
 Notas Válidas: 9.5, 10, 10
